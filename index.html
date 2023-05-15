@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foodsta</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,6 +15,18 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -40,5 +53,58 @@
         <button class="header-btn" type="button">Order Now</button>
       </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero-text">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
+          <button type="button" class="hero-btn">Order Now</button>
+          <div class="slider fade">
+            <div class="image-border">
+              <img
+                src="./images/hero/Foto1.png"
+                alt="food"
+                width="528"
+                height="528"
+              />
+            </div>
+            <div class="image-border">
+              <img
+                src="./images/hero/foto2.png"
+                alt="food"
+                width="528"
+                height="528"
+              />
+            </div>
+            <div class="image-border">
+              <img
+                src="./images/hero/foto3.png"
+                alt="food"
+                width="528"
+                height="528"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
