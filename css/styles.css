@@ -92,3 +92,56 @@ address {
   cursor: pointer;
   border-color: transparent;
 }
+/**
+  |============================
+  | hero
+  |============================
+*/
+
+.hero {
+  padding-top: 159px;
+  padding-bottom: 164px;
+}
+.hero-title {
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 28px;
+  max-width: 502px;
+}
+.hero-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  margin-bottom: 40px;
+  max-width: 511px;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: calc(20 / 13);
+  cursor: pointer;
+  border-color: transparent;
+
+  min-width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border-radius: 30px;
+}
+
+.image-border {
+  width: 580px;
+  height: 580px;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  top: -145px;
+  right: 16px;
+}
